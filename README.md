@@ -1,5 +1,6 @@
-##Desafio Drupal Squadra
-Este desafio trata-se da criação de um site em Drupal para listar Cachoeiras e Parques de Diversões.
+#Desafio Drupal Squadra
+
+<ins>Este desafio trata-se da criação de um site em Drupal para listar Cachoeiras e Parques de Diversões.</ins>
 ![Screenshot_1](https://github.com/user-attachments/assets/860702ea-1291-4243-b9cf-eb73b9506060)
 
 ##Pré-requisitos
@@ -26,6 +27,6 @@ Execute o comando
 - ddev start
 
 Em seguida execute no seu navegador a url do site que aparecer no power shell.
-* https://desafio-squadra.ddev.site
+[https://desafio-squadra.ddev.site]
 * 
 ![image](https://github.com/user-attachments/assets/2f25614a-f3fc-4110-837b-d8475c90ec5a)
