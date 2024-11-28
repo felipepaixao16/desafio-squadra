@@ -1,9 +1,9 @@
-#Desafio Drupal Squadra
+## Desafio Drupal Squadra
 
 <ins>Este desafio trata-se da criação de um site em Drupal para listar Cachoeiras e Parques de Diversões.</ins>
 ![Screenshot_1](https://github.com/user-attachments/assets/860702ea-1291-4243-b9cf-eb73b9506060)
 
-##Pré-requisitos
+## Pré-requisitos
 Software:
 Ddev
 Composer
@@ -12,7 +12,7 @@ Ambiente:
 Local: Instruções para instalar e configurar um ambiente local de desenvolvimento (Docker, DDEV, etc.)
 Produção: Requisitos do servidor de produção (PHP, banco de dados, etc.)
 
-##Iniciar projeto
+## Iniciar projeto
 .Faça o clone desse projeto para sua máquina local 
 
 .Com o power shell aberto execute o seguinte comando:
