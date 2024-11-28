@@ -1,0 +1,20 @@
+uuid: a95b59ca-5114-4e78-8aa4-54e839a9f88b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_localizacao
+field_name: field_localizacao
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

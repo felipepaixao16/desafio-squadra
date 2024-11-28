@@ -1,0 +1,11 @@
+uuid: 9701b063-048b-4d5d-adbc-48212f3c4a44
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.localizacao
+id: taxonomy_term.localizacao
+target_entity_type_id: taxonomy_term
+target_bundle: localizacao
+default_langcode: site_default
+language_alterable: false

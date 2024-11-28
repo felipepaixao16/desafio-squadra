@@ -1,0 +1,49 @@
+uuid: 03d7fcc6-510c-44f8-92bb-91ba3b8c4eb8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.parque_de_diversao.body
+    - field.field.node.parque_de_diversao.field_comprar_ingressos
+    - field.field.node.parque_de_diversao.field_image
+    - field.field.node.parque_de_diversao.field_localidade_do_parque
+    - image.style.medium
+    - node.type.parque_de_diversao
+  module:
+    - image
+    - text
+    - user
+id: node.parque_de_diversao.teaser
+targetEntityType: node
+bundle: parque_de_diversao
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_comprar_ingressos: true
+  field_localidade_do_parque: true
+  langcode: true

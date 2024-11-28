@@ -1,0 +1,9 @@
+uuid: cabf96f3-a228-460a-8a3e-875bc3df7c96
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Dificuldade
+vid: dificuldade
+description: 'Dificuldade de trilha para a cachoeira'
+weight: 0
+new_revision: false

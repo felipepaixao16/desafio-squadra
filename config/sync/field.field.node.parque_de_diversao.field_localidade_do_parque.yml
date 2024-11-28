@@ -1,0 +1,29 @@
+uuid: 35499b77-6ac2-419d-b095-3c49105c6f95
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localidade_do_parque
+    - node.type.parque_de_diversao
+    - taxonomy.vocabulary.localizacao
+id: node.parque_de_diversao.field_localidade_do_parque
+field_name: field_localidade_do_parque
+entity_type: node
+bundle: parque_de_diversao
+label: 'Localidade do parque'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      localizacao: localizacao
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

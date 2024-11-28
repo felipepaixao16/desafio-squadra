@@ -1,0 +1,31 @@
+uuid: 5433edc8-4c67-44a1-b7d5-db2b4d072489
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.todas_as_cachoeiras
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__todas_as_cachoeiras_block_2
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'views_block:todas_as_cachoeiras-block_2'
+settings:
+  id: 'views_block:todas_as_cachoeiras-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping:
+    nid: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/todas-as-cachoeiras\r\n/cachoeira/*"

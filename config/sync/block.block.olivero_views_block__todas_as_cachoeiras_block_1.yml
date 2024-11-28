@@ -1,0 +1,29 @@
+uuid: 3b0fb7d9-946f-46fc-8bfa-4d1b2eff11d9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.todas_as_cachoeiras
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__todas_as_cachoeiras_block_1
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'views_block:todas_as_cachoeiras-block_1'
+settings:
+  id: 'views_block:todas_as_cachoeiras-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/todos-os-parques\r\n/parque/*"

@@ -1,0 +1,9 @@
+uuid: f4d3f0ec-c239-45d7-ad4c-370bb2a7e880
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Localização
+vid: localizacao
+description: 'Localização da cachoeira'
+weight: 0
+new_revision: false
